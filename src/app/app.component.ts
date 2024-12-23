@@ -9,4 +9,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'hida-project';
+
+  showAlert() {
+    alert('Hello Hida, did you know that 1 + 1 = 2?');
+  }
 }
